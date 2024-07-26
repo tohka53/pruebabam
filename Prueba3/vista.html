@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cliente Info</title>
+    <script>
+        async function fetchCliente() {
+            const clienteID = document.getElementById('clienteID').value;
+            const response = await fetch(`http://127.0.0.1:5000/cliente/${clienteID}`);
+            const data = await response.json();
+            document.getElementById('result').innerText = JSON.stringify(data, null, 2);
+        }
+    </script>
+</head>
+<body>
+    <h1>Consulta de Cliente</h1>
+    <input type="text" id="clienteID" placeholder="Ingrese ID">
+    <button onclick="fetchCliente()">Consultar</button>
+    <pre id="result"></pre>
+</body>
+</html>

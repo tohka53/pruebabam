@@ -1,0 +1,12 @@
+2024-07-21 13:20:07,510 - INFO - La consulta se ejecuto correctamente.
+2024-07-21 13:20:07,517 - INFO - Conectado a la base de datos origen: prueba
+2024-07-21 13:20:07,676 - INFO - Query ejecutado correctamente.
+2024-07-21 13:20:07,678 - INFO - La tabla 'resultado' se creo correctamente
+2024-07-21 13:20:07,762 - INFO - Se incertaron los datos de la consulta realizada
+2024-07-21 13:20:07,762 - INFO - END
+2024-07-21 13:34:40,622 - INFO - La consulta se ejecuto correctamente.
+2024-07-21 13:34:40,628 - INFO - Conectado a la base de datos origen: prueba
+2024-07-21 13:34:40,803 - INFO - Query ejecutado correctamente.
+2024-07-21 13:34:40,804 - INFO - La tabla 'resultado' se creo correctamente
+2024-07-21 13:34:40,887 - INFO - Se incertaron los datos de la consulta realizada
+2024-07-21 13:34:40,887 - INFO - END

@@ -1,0 +1,1 @@
+python pruebapy.py Inciso1.sql resultado log.txt
